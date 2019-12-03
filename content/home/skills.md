@@ -16,20 +16,20 @@ subtitle = ""
 
 [[feature]]
   icon = "atom"
-  icon_pack = "fab"
-  name = "R"
+  icon_pack = "fas"
+  name = ""
   description = ""
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
-  name = "Statistics"
+  name = ""
   description = ""  
   
 [[feature]]
   icon = "camera-retro"
   icon_pack = "fas"
-  name = "Photography"
+  name = ""
   description = ""
 
 +++
