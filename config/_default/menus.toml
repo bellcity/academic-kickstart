@@ -9,17 +9,24 @@
   weight = 10
 
 [[main]]
+  name = "Servicios"
+  url = "#gallery"
+  weight = 11
+  identifier = services
+
+[[main]]
+  name = "Test"
+  url = "#"
+  weight = 99
+  parent = services
+
+[[main]]
   name = "Publicaciones"
   url = "#posts"
   weight = 20
   
 [[main]]
-  name = "Proyectos"
-  url = "#projects"
-  weight = 30
-
-[[main]]
-  name = "Galleria"
+  name = "Galeria"
   url = "#gallery"
   weight = 35
 
