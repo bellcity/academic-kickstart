@@ -7,7 +7,7 @@ commentable: false
 editable: false
 
 # Optional header image (relative to `static/img/` folder).
-header: POLÍTICA DE PRIVACIDAD
+header:
   caption: ""
   image: ""
 ---

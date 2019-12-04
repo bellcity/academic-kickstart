@@ -8,7 +8,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 15  # Order that this section will appear.
 
-title = "Demos"
+title = "Bell City Grup"
 subtitle = ""
 
 [design]
@@ -50,16 +50,12 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to the **personal demo** of Academic. Other demos available include:
+Welcome to the **Lorem Ipsum** 
 
-- [**Project Demo** (Academic's actual site)](https://sourcethemes.com/academic/)
+- [**Project BCG**](#)
 
 **Over 100,000 [Amazing Websites](https://sourcethemes.com/academic/#expo) have Already Been Built with Academic**
 
-**[Join](https://sourcethemes.com/academic/docs/install/) the Most Empowered Hugo Community**
+**Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar faucibus sagittis. Maecenas a pulvinar orci, quis luctus erat. Nullam vestibulum, sem nec feugiat cursus, risus velit imperdiet justo, tincidunt pretium nunc arcu non dui. Suspendisse sed dolor ut massa dapibus ornare in eget metus. Duis at tortor laoreet, sodales urna nec, lobortis ex. Fusce ullamcorper in purus ac facilisis. Morbi dolor libero, aliquet et elementum quis, aliquam non erat. Pellentesque eget gravida dui. In quis ullamcorper dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum libero tempus ligula porttitor, a ultricies erat laoreet. Praesent sem purus, tempor in massa sit amet, interdum finibus risus. Nulla placerat faucibus ligula, ac molestie ligula egestas ultrices. Sed molestie et tellus a luctus. Aliquam felis elit, pharetra quis hendrerit sed, viverra imperdiet ligula.
 
-{{% alert note %}}
-This homepage section is an example of adding [elements](https://sourcethemes.com/academic/docs/writing-markdown-latex/) to the [*Blank* widget](https://sourcethemes.com/academic/docs/widgets/).
-
-Backgrounds can be applied to any section. Here, the *background* option is set give an *image parallax* effect.
-{{% /alert %}}
+Nulla vitae arcu interdum, scelerisque turpis at, pulvinar urna. Nullam laoreet tortor ut turpis eleifend, eget fermentum nisi gravida. Nunc bibendum ante venenatis erat tempor, sed vestibulum lacus varius. Mauris pulvinar nibh diam, in porttitor mauris facilisis in. In sit amet vestibulum lorem. Sed vel orci sem. Pellentesque in feugiat est. Integer vehicula posuere vestibulum. Morbi ut vulputate ante, in tempus mauris. Aenean venenatis elit eu urna consequat convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur blandit diam at massa blandit interdum. Nullam leo justo, dapibus ac nibh id, mollis rutrum neque. Vivamus molestie fringilla leo, ut tincidunt ante mattis ac. Donec ultrices est ac lectus cursus luctus sed et turpis.**
