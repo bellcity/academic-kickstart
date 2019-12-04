@@ -12,13 +12,13 @@
   name = "Servicios"
   url = "#gallery"
   weight = 11
-  identifier = services
+  identifier = "sev"
 
 [[main]]
   name = "Test"
   url = "#"
   weight = 99
-  parent = services
+  parent = "sev"
 
 [[main]]
   name = "Publicaciones"
