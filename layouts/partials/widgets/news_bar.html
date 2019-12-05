@@ -1,0 +1,18 @@
+{{ $st := .page }}
+{{ $columns := $st.Params.design.columns | default "1" }}
+
+<div class="row">
+  {{ if ne $columns "1" }}
+    <div class="col-12 col-lg-4 section-heading">
+    </div>
+    <div class="col-12 col-lg-8">
+      {{ $st.Content }}
+    </div>
+  {{ else }}
+    <div class="col-12 col-lg-4 section-heading">
+    </div>
+    <div class="col-12 col-lg-8">
+      {{ $st.Content }}
+    </div>
+  {{ end }}
+</div>
