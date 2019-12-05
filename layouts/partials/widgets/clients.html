@@ -16,7 +16,7 @@
   {{ end }}
 
   {{ range $page.Params.skill }}
-  {{ $pack := or .icon_pack "fas" }}
+  {{ $pack := or .icon "svgs/external-links.svg" }}
   <div class="col-12 col-sm-4">
     {{ with .icon }}
     <div class="featurette-icon">
