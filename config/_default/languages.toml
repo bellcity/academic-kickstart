@@ -5,21 +5,24 @@
 # Configure the languages version of the site.
 [es]
   languageCode = "es-es"
-  contentDir = "content/es"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  weight = 3
+  contentDir = "content/es"  
   title = "Bell City Grup"
   [es.params]
     description = ""
 
 [en]
   languageCode = "en"
-  contentDir = "content/en"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  weight = 2
+  contentDir = "content/en"  
   title = "Bell City Grup"
   [en.params]
     description = ""
 
 [ca]
   languageCode = "ca"
-  contentDir = "content/ca"  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  weight = 1
+  contentDir = "content/ca"  
   title = "Bell City Grup"
   [ca.params]
     description = ""
