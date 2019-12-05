@@ -14,25 +14,23 @@ subtitle = ""
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
-[[feature]]
-  icon = "atom"
+[[skill]]
+  icon = "external-links.svg"
   icon_pack = "fas"
   name = ""
   description = ""
   
-[[feature]]
+[[skill]]
   icon = "chart-line"
   icon_pack = "fas"
   name = ""
   description = ""  
   
-[[feature]]
-  icon = "camera-retro"
+[[skill]]
+  icon = "external-links.svg"
   icon_pack = "fas"
   name = ""
   description = ""
 
 +++
-
-{{ partial "svgs/external-links.svg" (dict "fill" "#01589B" "width" 10 "height" 20 ) }}
 
