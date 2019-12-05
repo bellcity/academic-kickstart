@@ -20,7 +20,7 @@ copyright = "&copy; 2016-{year} Bell City Grup S.L."
 ############################
 
 # Name of Academic theme folder in `themes/`.
-theme = "academic"
+theme = "nebula"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
