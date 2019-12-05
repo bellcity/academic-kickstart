@@ -14,20 +14,18 @@ subtitle = ""
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
-[[skill]]
-  icon = "svgs/external-links.svg"
+[[client]]
+  svg = "svgs/caser_seguros_aniversario.svg"
   name = ""
   description = ""
   
-[[skill]]
-  icon = "svgs/mapfre_logo.svg"
-  icon_pack = "fas"
+[[client]]
+  svg = "svgs/mapfre_logo.svg"
   name = ""
   description = ""  
   
-[[skill]]
-  icon = "svgs/caser_seguros.svg"
-  icon_pack = "fas"
+[[client]]
+  svg = "svgs/caser_seguros.svg"
   name = ""
   description = ""
 
