@@ -32,8 +32,6 @@ subtitle = ""
   name = ""
   description = ""
 
-{{ partial "svgs/external-links.svg" (dict "fill" "#01589B" "width" 10 "height" 20 ) }}
-
 +++
 
 {{ partial "svgs/external-links.svg" (dict "fill" "#01589B" "width" 10 "height" 20 ) }}
