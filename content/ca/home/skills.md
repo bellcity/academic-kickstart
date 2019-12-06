@@ -1,6 +1,6 @@
 +++
 # A Skills section created with the Featurette widget.
-widget = "clients"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
@@ -14,18 +14,21 @@ subtitle = ""
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
-[[client]]
-  svg = "svgs/caser_seguros_aniversario.svg"
+[[feature]]
+  icon = "atom"
+  icon_pack = "fas"
   name = ""
   description = ""
   
-[[client]]
-  svg = "svgs/mapfre_logo.svg"
+[[feature]]
+  icon = "chart-line"
+  icon_pack = "fas"
   name = ""
   description = ""  
   
-[[client]]
-  svg = "svgs/caser_seguros.svg"
+[[feature]]
+  icon = "camera-retro"
+  icon_pack = "fas"
   name = ""
   description = ""
 
