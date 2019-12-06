@@ -25,6 +25,21 @@ subtitle = ""
   description = ""  
   
 [[skill]]
+  icon = "svgs/almar_consulting.svg"
+  name = ""
+  description = ""
+
+[[skill]]
+  icon = "svgs/policlinica_barcelona.svg"
+  name = ""
+  description = ""
+
+[[skill]]
+  icon = "svgs/mapfre_logo.svg"
+  name = ""
+  description = ""
+
+[[skill]]
   icon = "svgs/caser_seguros.svg"
   name = ""
   description = ""

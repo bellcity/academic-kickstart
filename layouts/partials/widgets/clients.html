@@ -17,7 +17,7 @@
 
   {{ range $page.Params.skill }}
   {{ $pack := or .icon "svgs/external-links.svg" }}
-  <div class="col-12 col-sm-4">
+  <div class="col-12 col-sm-2">
     {{ with .icon }}
     <div class="featurette-icon">
     {{ partial $pack (dict "fill" "#01589B" "width" 120 "height" 120 ) }}
