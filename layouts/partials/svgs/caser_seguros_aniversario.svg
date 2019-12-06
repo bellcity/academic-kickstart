@@ -5,8 +5,8 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 113.38667 33.826668"
-   height="{{ div .width 3}}"
-   width="{{ div .width 2}}"
+   height="{{ div .height 3}}"
+   width="{{ .width }}"
    xml:space="preserve"
    id="svg2"
    version="1.1"><metadata
