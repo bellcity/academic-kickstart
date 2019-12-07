@@ -10,3 +10,18 @@ h1{
 .section-heading h1{
     margin: 0 0 30px 0;
 }
+#map{
+    margin-top: 50px;
+}
+a{
+    color: inherit;
+}
+h3.article-title a:hover{
+    color: #777;
+    text-decoration: none;
+    transition: color 0.6s ease;
+}
+.btn-outline-primary{
+    border-color: #87189D;
+    border-width: 2px;
+}
