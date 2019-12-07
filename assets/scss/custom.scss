@@ -4,6 +4,12 @@
 .navbar-light .navbar-toggler{
     color: white;
 }
+.home-section{
+    padding: 40px 0 40px 0;
+}
+#posts, #gallery, #contact{
+    padding: 60px;
+}
 h1{
     margin-bottom: 1rem;
 }
@@ -19,9 +25,23 @@ a{
 h3.article-title a:hover{
     color: #777;
     text-decoration: none;
-    transition: color 0.6s ease;
+    transition: color 0.3s ease;
+}
+.btn{
+    font-size: 1rem;
 }
 .btn-outline-primary{
     border-color: #87189D;
     border-width: 2px;
 }
+
+@media only screen and (max-width: 600px) {
+    #gallery, .section-heading{
+      text-align: center;
+    }
+    .btn{
+        display: block;
+        margin: auto;
+    }
+    
+  }

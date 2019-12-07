@@ -54,7 +54,7 @@ Welcome to the **Lorem Ipsum**
 
 - [**Project BCG**](#)
 
-**Over 100,000 [Amazing Websites](https://sourcethemes.com/academic/#expo) have Already Been Built with Academic**
+**[Over 9,000](https://sourcethemes.com/academic/#expo) have Already Been Built with Academic**
 
 **Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar faucibus sagittis. Maecenas a pulvinar orci, quis luctus erat. Nullam vestibulum, sem nec feugiat cursus, risus velit imperdiet justo, tincidunt pretium nunc arcu non dui. Suspendisse sed dolor ut massa dapibus ornare in eget metus. Duis at tortor laoreet, sodales urna nec, lobortis ex. Fusce ullamcorper in purus ac facilisis. Morbi dolor libero, aliquet et elementum quis, aliquam non erat. Pellentesque eget gravida dui. In quis ullamcorper dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum libero tempus ligula porttitor, a ultricies erat laoreet. Praesent sem purus, tempor in massa sit amet, interdum finibus risus. Nulla placerat faucibus ligula, ac molestie ligula egestas ultrices. Sed molestie et tellus a luctus. Aliquam felis elit, pharetra quis hendrerit sed, viverra imperdiet ligula.
 

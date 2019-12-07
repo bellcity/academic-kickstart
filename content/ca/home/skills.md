@@ -14,32 +14,32 @@ subtitle = ""
 # 
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
-[[skill]]
+[[row1]]
   icon = "svgs/caser_seguros_aniversario.svg"
   name = ""
   description = ""
   
-[[skill]]
+[[row1]]
   icon = "svgs/mapfre_logo.svg"
   name = ""
   description = ""  
   
-[[skill]]
+[[row1]]
   icon = "svgs/almar_consulting.svg"
   name = ""
   description = ""
 
-[[skill]]
+[[row2]]
   icon = "svgs/policlinica_barcelona.svg"
   name = ""
   description = ""
 
-[[skill]]
+[[row2]]
   icon = "svgs/mapfre_logo.svg"
   name = ""
   description = ""
 
-[[skill]]
+[[row2]]
   icon = "svgs/caser_seguros.svg"
   name = ""
   description = ""

@@ -15,11 +15,23 @@
   </div>
   {{ end }}
 
-  {{ range $page.Params.skill }}
+  {{ range $page.Params.row1 }}
   {{ $pack := or .icon "svgs/external-links.svg" }}
-  <div class="col-12 col-sm-2">
+  <div class="col-12 col-sm-3">
     {{ with .icon }}
-    <div class="featurette-icon">
+    <div class="featurette-icon" style="padding: 10px 5px 10px 5px;">
+    {{ partial $pack (dict "fill" "#01589B" "width" 120 "height" 120 ) }}
+    </div>{{ end }}
+    <h3>{{ .name | markdownify | emojify }}</h3>
+    {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+  
+  {{ range $page.Params.row2 }}
+  {{ $pack := or .icon "svgs/external-links.svg" }}
+  <div class="col-12 col-sm-3">
+    {{ with .icon }}
+    <div class="featurette-icon" style="padding: 10px 5px 10px 5px;">
     {{ partial $pack (dict "fill" "#01589B" "width" 120 "height" 120 ) }}
     </div>{{ end }}
     <h3>{{ .name | markdownify | emojify }}</h3>
