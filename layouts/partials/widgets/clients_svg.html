@@ -1,0 +1,41 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+<div class="row featurette">
+  {{ with $page.Title }}
+  <div class="col-md-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $page.Content }}
+  <div class="col-md-12">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  {{ range $page.Params.row1 }}
+  {{ $pack := or .icon "svgs/external-links.svg" }}
+  <div class="col-12 col-sm-3">
+    {{ with .icon }}
+    <div class="featurette-icon" style="padding: 10px 5px 10px 5px;">
+    {{ partial $pack (dict "fill" "#01589B" "width" 120 "height" 120 ) }}
+    </div>{{ end }}
+    <h3>{{ .name | markdownify | emojify }}</h3>
+    {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+  
+  {{ range $page.Params.row2 }}
+  {{ $pack := or .icon "svgs/external-links.svg" }}
+  <div class="col-12 col-sm-3">
+    {{ with .icon }}
+    <div class="featurette-icon" style="padding: 10px 5px 10px 5px;">
+    {{ partial $pack (dict "fill" "#01589B" "width" 120 "height" 120 ) }}
+    </div>{{ end }}
+    <h3>{{ .name | markdownify | emojify }}</h3>
+    {{ with .description }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+</div>

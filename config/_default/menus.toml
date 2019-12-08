@@ -5,7 +5,7 @@
 
 [[main]]
   name = "Home"
-  url = "#index"
+  url = "#"
   weight = 10
 
 [[main]]
@@ -15,8 +15,8 @@
   identifier = "sev"
 
 [[main]]
-  name = "Test"
-  url = "#"
+  name = "Test1"
+  url = "/post/getting-started/"
   weight = 99
   parent = "sev"
 
