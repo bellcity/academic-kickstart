@@ -59,7 +59,7 @@ h3.article-title a:hover{
 	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 }
 
-$animationSpeed: 48s;
+$animationSpeed: 60s;
 
 // Animation
 @keyframes scroll {
@@ -67,6 +67,9 @@ $animationSpeed: 48s;
 	100% { transform: translateX(calc(-250px * 7))}
 }
 
+.empty {
+	padding: 0px;	
+}
 
 // Styling
 .slider {
@@ -103,11 +106,14 @@ $animationSpeed: 48s;
 	.slide-track {
 		animation: scroll $animationSpeed linear infinite;
 		display: flex;
-		width: calc(250px * 14);
+		width: calc(250px * 5);
 	}
 	
 	.slide {
-		height: 120px;
-		width: 250px;
+		margin: 0 20px 0 20px;
+		height: 100px;
+		width: 100px;
+		justify-content: center;
+
 	}
 }

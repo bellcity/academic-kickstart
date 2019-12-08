@@ -1,0 +1,30 @@
+{{/* Get album folder or default to `gallery/`. */}}
+{{ $album := "" }}
+{{ with .Get "album" }}{{ $album = . }}{{else}}{{ $album = "infinite_slider" }}{{end}}
+
+{{/* Set image path and page bundle that images are associated with. */}}
+{{ $album_path := "" }}
+{{ $resource_page := "" }}
+{{ if eq .Page.Parent.Type "widget_page" }}
+  {{ $album_path = printf "%s/%s/*" (path.Base (path.Split .Page.Path).Dir) $album }}
+  {{ $resource_page = $.Page.Parent }}
+{{ else }}
+  {{ $album_path = printf "%s/*" $album }}
+  {{ $resource_page = $.Page }}
+{{ end }}
+
+<div class="slider">
+    <div class="slide-track">
+        {{/* Attempt to automatically load gallery images from page bundle */}}
+        {{ $images := ($resource_page.Resources.ByType "image").Match $album_path }}
+        {{ with $images }}
+        {{ range $images }}
+            {{ $image := .Resize "x150"  }}
+        <div class="slide">
+            <img src="{{ .RelPermalink }}" height="100" width="100" alt="" />
+        </div>
+            {{ end }}
+        {{ end }}
+        
+    </div>
+</div>

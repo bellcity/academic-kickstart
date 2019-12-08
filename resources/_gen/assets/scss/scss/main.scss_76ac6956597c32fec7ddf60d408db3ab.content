@@ -9038,6 +9038,9 @@ h3.article-title a:hover {
   100% {
     transform: translateX(calc(-250px * 7)); } }
 
+.empty {
+  padding: 0px; }
+
 .slider {
   background: white;
   box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
@@ -9057,9 +9060,11 @@ h3.article-title a:hover {
     left: 0;
     top: 0; }
   .slider .slide-track {
-    animation: scroll 48s linear infinite;
+    animation: scroll 60s linear infinite;
     display: flex;
-    width: calc(250px * 14); }
+    width: calc(250px * 5); }
   .slider .slide {
-    height: 120px;
-    width: 250px; }
+    margin: 0 20px 0 20px;
+    height: 100px;
+    width: 100px;
+    justify-content: center; }
