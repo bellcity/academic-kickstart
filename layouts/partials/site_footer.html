@@ -14,7 +14,7 @@
   <p class="powered-by">
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
 
-    <a href="privacy.md" target="_blank" rel="noopener">Politica de privacidad</a>
+    <a href="/privacy" target="_blank" rel="noopener">Politica de privacidad</a>
 
     {{ if not (in (slice "docs" "updates") .Type) }}
     <span class="float-right" aria-hidden="true">
