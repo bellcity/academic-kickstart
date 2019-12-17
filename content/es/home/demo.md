@@ -50,11 +50,11 @@ subtitle = ""
  css_class = ""
 +++
 
-<div class="container" style="text-align:center">
+<div class="container" style="display: flex; justify-content: center">
 
-**Te escuchamos**
+**Escuchamos tus ideas**
 
-**Valoramos tus ideas**
+**Valoramos tus opciones**
 
 **Construimos tus sueños**
 
