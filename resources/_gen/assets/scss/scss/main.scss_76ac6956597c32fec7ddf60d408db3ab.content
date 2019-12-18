@@ -8986,7 +8986,8 @@ div.mermaid {
   margin-bottom: 1rem; }
 
 .navbar {
-  background: black; }
+  background: black;
+  align-content: center; }
 
 .navbar-light .navbar-toggler {
   color: white; }
@@ -9021,9 +9022,29 @@ h3.article-title a:hover {
   border-color: #87189D;
   border-width: 2px; }
 
+#clients, #slider, #gallery, .section-heading {
+  text-align: center; }
+
+@media only screen and (min-width: 993px) {
+  .navbar-brand img {
+    height: auto;
+    margin-bottom: 0px; } }
+
+@media only screen and (min-width: 928px) and (max-width: 992px) {
+  .navbar-brand img {
+    height: 35px; } }
+
 @media only screen and (max-width: 600px) {
-  #clients, #slider, #gallery, .section-heading {
-    text-align: center; }
+  .navbar-brand img {
+    height: 32px; }
+  .container {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .row {
+    margin-left: -25px;
+    margin-right: -25px; }
+  #demo .container {
+    padding-left: 25px; }
   .btn {
     display: block;
     margin: auto; } }
@@ -9031,7 +9052,7 @@ h3.article-title a:hover {
 footer {
   text-align: center;
   font-size: .6rem;
-  line-height: 25px; }
+  line-height: 30px; }
 
 #slider {
   align-items: center;
