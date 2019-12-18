@@ -9004,6 +9004,9 @@ h1 {
 .section-heading h1 {
   margin: 0 0 30px 0; }
 
+.row.contact-widget {
+  justify-content: center; }
+
 #map {
   margin-top: 50px; }
 
@@ -9016,7 +9019,9 @@ h3.article-title a:hover {
   transition: color 0.3s ease; }
 
 .btn {
-  font-size: 1rem; }
+  font-size: 1rem;
+  display: block;
+  margin: auto; }
 
 .btn-outline-primary {
   border-color: #87189D;
