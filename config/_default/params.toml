@@ -206,6 +206,11 @@ plugins_js  = ["custom"]
 
   # Which page types are commentable?
   commentable = {page = false, post = true, docs = false, project = false, publication = true, talk = true}
+  
+  # Configuration of Commento.
+  [comments.commento]
+  # If self-hosting Commento, enter its URL here (e.g. "https://commento.?.com"), otherwise leave empty.
+    url = ""
 
   # Configuration of Disqus.
   [comments.disqus]

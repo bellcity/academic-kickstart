@@ -7,7 +7,7 @@
   title = "Twitter"
   icon_pack = "fab"
   icon = "twitter"
-  enable = true
+  enable = false
 
 [[buttons]]
   id = "facebook"
@@ -31,7 +31,7 @@
   title = "LinkedIn"
   icon_pack = "fab"
   icon = "linkedin-in"
-  enable = true
+  enable = false
 
 [[buttons]]
   id = "whatsapp"
@@ -40,7 +40,6 @@
   icon_pack = "fab"
   icon = "whatsapp"
   enable = true
-
 
 [[buttons]]
   id = "reddit"
