@@ -44,7 +44,7 @@ local_business_type = "HomeAndConstructionBusiness"
 org_name = ""
 
 # Description for social sharing and search engines. If undefined, superuser role is used in place.
-description = ""
+description = "Bell City Grup es una empresa de reformas en Barcelona. Hacemos reformas de todo tipo de inmuebles y somos especialistas en reformas integrales de cocinas y baños. Nos encargamos de la albañilería, electricidad, decoración y fontanería. ¡Pídenos presupuesto gratis y sin compromiso!"
 
 # Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
