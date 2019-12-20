@@ -21,7 +21,7 @@
         {{ range $images }}
             {{ $image := .Resize "x150"  }}
         <div class="slide">
-            <img src="{{ .RelPermalink }}" height="100" width="100" alt="" />
+            <img data-src="{{ .RelPermalink }}" class="lazyload" height="100" width="100" alt="" />
         </div>
             {{ end }}
         {{ end }}
