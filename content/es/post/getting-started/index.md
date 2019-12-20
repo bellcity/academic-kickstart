@@ -34,11 +34,10 @@ projects: []
 
 ## **Renovar los textiles!!**
 
-Los textiles de la vivienda son una parte muy importante de la decoración,
-pueden cambiar completamente la imagen de una estancia.
+Los textiles de la vivienda son una parte muy importante de la decoración, pueden cambiar completamente la imagen de una estancia.
 
 ## **RENOVAR LAS CORTINAS** 
 
-Un cambio muy eficaz para dar un nuevo aspecto a la casa es cambiar las cortinas.
-Podemos aprovechar para revisar la instalación, las cortinas deben colocarse lo más altas posible para dar sensación de amplitud y si no lo hemos hecho desde el principio, dejar que la barra de cortina sobresalga unos 15cm a cada lado de la ventana para que cuando las cortinas estén abiertas no tapen parte de la luz. Un cambio que parece insignificante no lo es, al cambiar las cortinas, todo cambiará.
+Un cambio muy eficaz para dar un nuevo aspecto a la casa es cambiar las cortinas. Podemos aprovechar para revisar la instalación, las cortinas deben colocarse lo más altas posible para dar sensación de amplitud y si no lo hemos hecho desde el principio, dejar que la barra de cortina sobresalga unos 15cm a cada lado de la ventana para que cuando las cortinas estén abiertas no tapen parte de la luz. Un cambio que parece insignificante no lo es, al cambiar las cortinas, todo cambiará.
+
 Ten en cuenta el tipo de textil elegido ya que marcará el ambiente dentro de la habitación; algodón o lino son telas frescas para ambientes naturales; gasa o seda son telas más románticas, que quedan muy bien en dormitorios; terciopelo y jacquard son sofisticadas, encajan bien en salones y comedores más elegantes.
