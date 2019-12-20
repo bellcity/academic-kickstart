@@ -48,7 +48,7 @@ description = "Bell City Grup es una empresa de reformas en Barcelona. Hacemos r
 
 # Display a logo in navigation bar rather than title (optional).
 #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-logo = "bcg_logo_50px.jpg"
+logo = "bcg_logo.jpg"
 
 ############################
 ## Site Features
