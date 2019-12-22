@@ -32,13 +32,15 @@ h3.article-title a:hover{
     transition: color 0.3s ease;
 }
 .btn{
-	font-size: 1rem;
+	font-size: .8rem;
 	display: block;
-    margin: auto;
+	margin: auto;
+	line-height: 1rem;
 }
 .btn-outline-primary{
     border-color: #87189D;
-    border-width: 2px;
+	border-width: 2px;
+	font-size: 1rem;
 }
 .btn-demo{
 	background-color: black;
@@ -54,7 +56,7 @@ ul.share-contact{
 	flex-direction: row;
 	flex-wrap: wrap;
 	list-style: none;
-	margin: 10px;
+	margin: 20px;
 	padding: 0;
 }
 ul.share-contact li a{

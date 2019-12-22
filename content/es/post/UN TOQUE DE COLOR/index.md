@@ -3,7 +3,6 @@ title: Un toque de color
 subtitle: 
 summary: La pintura es nuestra gran aliada para conseguir un cambio inmediato.
 authors:
-- admin
 tags: ["Pintura"]
 categories: []
 date: "2019-12-20T00:00:00Z"
