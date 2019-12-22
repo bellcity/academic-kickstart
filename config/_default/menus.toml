@@ -8,17 +8,17 @@
   url = "#"
   weight = 10
 
-[[main]]
-  name = "Servicios"
-  url = "#gallery"
-  weight = 11
-  identifier = "sev"
+#[[main]]
+#  name = "Servicios"
+#  url = "#gallery"
+#  weight = 11
+#  identifier = "sev"
 
-[[main]]
-  name = "Test1"
-  url = "/post/getting-started/"
-  weight = 99
-  parent = "sev"
+#[[main]]
+#  name = "Test1"
+#  url = "/post/getting-started/"
+#  weight = 99
+#  parent = "sev"
 
 [[main]]
   name = "Publicaciones"

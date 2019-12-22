@@ -29,7 +29,7 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  image = "headers/jacaranda-3.jpg"  # Name of image in `static/img/`.
+  image = "headers/jacaranda_.jpg"  # Name of image in `static/img/`.
   image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
   image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
   image_position = "center"  # Options include `left`, `center` (default), or `right`.
@@ -50,10 +50,11 @@ subtitle = ""
  css_class = ""
 +++
 
-Welcome to the **Lorem Ipsum** 
+<div class="container" style="display: flex; justify-content: center">
 
-- [**Project BCG**](#)
-
-**[Over 9,000](https://sourcethemes.com/academic/#expo) have Already Been Built with Academic**
-
-**Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pulvinar faucibus sagittis. Maecenas a pulvinar orci, quis luctus erat. Nullam vestibulum, sem nec feugiat cursus, risus velit imperdiet justo, tincidunt pretium nunc arcu non dui. Suspendisse sed dolor ut massa dapibus ornare in eget metus. Duis at tortor laoreet, sodales urna nec, lobortis ex. Fusce ullamcorper in purus ac facilisis. Morbi dolor libero, aliquet et elementum quis, aliquam non erat. Pellentesque eget gravida dui. In quis ullamcorper dolor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum libero tempus ligula porttitor, a ultricies erat laoreet. Praesent sem purus, tempor in massa sit amet, interdum finibus risus. Nulla placerat faucibus ligula, ac molestie ligula egestas ultrices. Sed molestie et tellus a luctus. Aliquam felis elit, pharetra quis hendrerit sed, viverra imperdiet ligula.**
+  <div class="row" style="flex-direction: column; text-align: center">
+    <p>Escoltem les teves ideas... Valorem les teves opcions... </p>
+    <p>Construim els teus somnis</p>
+  </div>
+  
+</div>
