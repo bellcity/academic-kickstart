@@ -53,8 +53,8 @@ subtitle = ""
 <div class="container" style="display: flex; justify-content: center">
 
   <div class="row" style="flex-direction: column; text-align: center">
-    <p>We hear your ideas... We value your options... </p>
-    <p>We build your dreams</p>
+    <p>We listen your ideas... We value your options... </p>
+    <p>We design your dreams</p>
   </div>
   
 </div>

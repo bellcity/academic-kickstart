@@ -53,7 +53,7 @@ subtitle = ""
 <div class="container" style="display: flex; justify-content: center">
 
   <div class="row" style="flex-direction: column; text-align: center">
-    <p>Escoltem les teves ideas... Valorem les teves opcions... </p>
+    <p>Escoltem les teves idees... Valorem les teves opcions... </p>
     <p>Construim els teus somnis</p>
   </div>
   
