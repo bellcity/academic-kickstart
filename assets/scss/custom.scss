@@ -89,13 +89,27 @@ ul.share-contact li i{
 #clients, #slider, #gallery, .section-heading{
 	text-align: center;
 }
-
+.google-star{
+	color: gold;
+	flex-direction: row;
+	width: 25px;
+	padding-left: 10px;
+}
+.google-card{
+	display: flex;
+	flex-direction: row;
+	margin: 10px 0 10px 0;
+}
 
 
 @media only screen and (min-width: 993px) {
 	.navbar-brand img{
 		height: auto;
 		margin-bottom: 0px;
+	}
+	.row{
+		padding-right: 80px;
+		padding-left: 80px;
 	}
 }
 

@@ -1,0 +1,103 @@
+{{ $st := .page }}
+{{ $columns := $st.Params.design.columns | default "2" }}
+
+<div class="row">
+  {{ if ne $columns "1" }}
+    <div class="col-12 col-lg-12 section-heading">
+      {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+      {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+    </div>
+    {{ end }}
+</div>
+<div class="row">
+    <!-- Google Reviews -->
+    <div class="col-12 col-xl-3 col-lg-6 col-md-6 col-sd-12">
+      <div class="card-simple">
+        <div class="google-card">
+          <a href="https://www.google.com/maps/place/BELL+CITY+GRUP/@41.4035447,2.137442,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x83eaa0dd6ee61af5!8m2!3d41.4035404!4d2.1396303">
+            <img src="https://lh3.googleusercontent.com/-na3XSQm1uKk/AAAAAAAAAAI/AAAAAAAAAAA/PD2QVckoUBA/w36-h36-p-rp-mo-br100/photo.jpg" alt="google review">
+          </a>
+          <div class="article-style" style="padding: 0 10px 0 10px;">
+            <p>Sílvia Ors i Solà</p>
+          </div>
+        </div>
+        <div class="google-card">
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+        </div>
+        <div class="article-style">
+          <p>Los conocí porque me los recomendó un amigo y la verdad es que mi experiencia fue muy buena. Reformaron el baño de mi piso y fueron eficientes y claros en todo momento. ¡Buen trato y muy profesionales!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-xl-3 col-lg-6 col-md-6 col-sd-12">
+      <div class="card-simple">
+        <div class="google-card">
+          <a href="https://www.google.com/maps/place/BELL+CITY+GRUP/@41.4035447,2.137442,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x83eaa0dd6ee61af5!8m2!3d41.4035404!4d2.1396303">
+            <img src="https://lh4.googleusercontent.com/-EizOAHeWHG8/AAAAAAAAAAI/AAAAAAAAAAA/Jx_NBeqk0Ng/w36-h36-p-rp-mo-br100/photo.jpg" alt="google review">
+          </a>
+          <div class="article-style" style="padding: 0 10px 0 10px;">
+            <p>Marta Agea</p>
+          </div>
+        </div>
+        <div class="google-card">
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+        </div>
+        <div class="article-style">
+          <p>Si piensas hacer reformas ellos son los indicados. Rápidos y eficientes, muy buena gente. Repetiré seguro.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-xl-3 col-lg-6 col-md-6 col-sd-12">
+      <div class="card-simple">
+        <div class="google-card">
+          <a href="https://www.google.com/maps/place/BELL+CITY+GRUP/@41.4035447,2.137442,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x83eaa0dd6ee61af5!8m2!3d41.4035404!4d2.1396303">
+            <img src="https://lh6.googleusercontent.com/-nysx3WoxYro/AAAAAAAAAAI/AAAAAAAAAAA/LX5DpyM0JX0/w36-h36-p-rp-mo-br100/photo.jpg" alt="google review">
+          </a>
+          <div class="article-style" style="padding: 0 10px 0 10px;">
+            <p>Daniel Mañes Milián</p>
+          </div>
+        </div>
+        <div class="google-card">
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+        </div>
+        <div class="article-style">
+          <p>Empresa ejemplar, meticulosos y serios en su trabajo.
+            Ha quedado todo perfecto, recomendable sin lugar a dudas!</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-xl-3 col-lg-6 col-md-6 col-sd-12">
+      <div class="card-simple">
+        <div class="google-card">
+          <a href="https://www.google.com/maps/place/BELL+CITY+GRUP/@41.4035447,2.137442,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x83eaa0dd6ee61af5!8m2!3d41.4035404!4d2.1396303">
+            <img src="https://lh4.googleusercontent.com/-5HV4kOYXn5Y/AAAAAAAAAAI/AAAAAAAAAAA/kcif6_EeJUc/w36-h36-p-rp-mo-br100/photo.jpg" alt="google review">
+          </a>
+          <div class="article-style" style="padding: 0 10px 0 10px;">
+            <p>Sofia Rivera</p>
+          </div>
+        </div>
+        <div class="google-card">
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+          <i class="fa fa-star google-star" aria-hidden="true"></i>
+        </div>
+        <div class="article-style">
+          <p>Me ayudaron mucho y son super majos. Grandes profesionales!</p>
+        </div>
+      </div>
+    </div>
+</div>
