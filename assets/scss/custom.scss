@@ -60,7 +60,7 @@ ul.share-contact{
 	padding: 0;
 }
 ul.share-contact li a{
-	color: black;
+	color: blanchedalmond;
 }
 ul.share-contact li i{
 	display: block;
@@ -72,8 +72,9 @@ ul.share-contact li i{
 	transition: all 100ms ease-in-out;
 	text-decoration: none;
 }
-
-
+#habitissimo-habitissimo_profile{
+	color: blanchedalmond;
+}
 
 #clients, #slider, #gallery, .section-heading{
 	text-align: center;
@@ -94,8 +95,10 @@ ul.share-contact li i{
 	}
 }
 
-@media only screen and (max-width: 600px) {
-
+@media only screen and (min-width: 350px) and (max-width: 600px) {
+	h1{
+		margin-bottom: 16px;
+	}
 	.navbar-brand img{
 		height: 32px;
 	}
@@ -117,11 +120,35 @@ ul.share-contact li i{
     
 }
 
+@media only screen and (max-width: 349px) {
+	h1{
+		margin-bottom: 12px;
+	}
+	#gallery{
+		padding: 10px;
+	}
+	p{
+		margin-bottom: 0px;
+	}
+	.gallery a[data-fancybox] img{
+		max-width: 100%;
+	}
+	.navbar-brand img{
+		height: 24px;
+	}
+	.navbar-brand-mobile-wrapper{
+		position: relative;
+		left: 8px;
+	}
+}
+
 footer{
 	text-align: center;
 	font-size: .6rem;
 	line-height: 30px;
 	margin: 1rem 0 0;
+	color: blanchedalmond;
+	background-color: black;
 }
 
 //// Infinite Slider Carousel ////
