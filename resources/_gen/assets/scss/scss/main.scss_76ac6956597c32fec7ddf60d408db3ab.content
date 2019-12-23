@@ -9014,8 +9014,18 @@ div.mermaid {
 h1 {
   margin-bottom: 1rem; }
 
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 0px;
+  padding-right: 0px; }
+
 .section-heading h1 {
   margin: 0 0 30px 0; }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
 
 .row.contact-widget {
   justify-content: center; }
@@ -9090,14 +9100,18 @@ ul.share-contact li i {
 @media only screen and (min-width: 350px) and (max-width: 600px) {
   h1 {
     margin-bottom: 16px; }
+  #gallery {
+    padding: 10px; }
+  .gallery a[data-fancybox] img {
+    max-width: 95%; }
   .navbar-brand img {
     height: 32px; }
+  .navbar-brand-mobile-wrapper {
+    position: relative;
+    left: 60px; }
   .container {
     padding-left: 0px;
     padding-right: 0px; }
-  .row {
-    margin-left: -25px;
-    margin-right: -25px; }
   #demo .container {
     padding-left: 25px; }
   .btn {
