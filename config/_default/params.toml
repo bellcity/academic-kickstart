@@ -163,7 +163,7 @@ link_authors = true
 
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_js  = ["custom", "lazysizes.min"]
+plugins_js  = ["custom", "lazysizes.min", "jquery.twentytwenty", "jquery.event.move"]
 
 # Available address formats.
 [address_formats]

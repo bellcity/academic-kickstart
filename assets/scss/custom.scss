@@ -59,6 +59,15 @@ h3.article-title a:hover{
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+.share-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+a.share-btn-email:hover{
+	text-decoration: none;
+}
+
 ul.share-contact{
 	display: flex;
 	align-items: center;

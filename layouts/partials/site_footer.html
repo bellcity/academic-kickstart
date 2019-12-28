@@ -11,7 +11,6 @@
   </p>
   {{ end }}
 
-  <p class="powered-by">
       <div class="share-box" aria-hidden="true">
         <ul class="share-contact">
           <li>
@@ -20,7 +19,7 @@
             </a>
           </li>
           <li>
-            <a href="#" target="_blank" rel="noopener" class="share-btn-email">
+            <a href="mailto:comercial@bellcity.es?Subject=Contact" target="_blank" rel="noopener" class="share-btn-email">
               <i class="fas fa-envelope"></i>
             </a>
           </li>
@@ -32,10 +31,16 @@
         </ul>
       </div>
 
-    <div id="habitissimo-habitissimo_profile">
-      <a href="https://empresas.habitissimo.es/pro/bell-city-grup-s-l">Bell City Grup S.L.</a>
-      <script async defer src="https://api.habitissimo.es/widget/habitissimo_profile/bell-city-grup-s-l.js"></script>
+    <div class="share-box">
+      <div id="habitissimo-habitissimo_profile">
+        <a href="https://empresas.habitissimo.es/pro/bell-city-grup-s-l">Bell City Grup S.L.</a>
+        <script async defer src="https://api.habitissimo.es/widget/habitissimo_profile/bell-city-grup-s-l.js"></script>
+      </div>
+        <a href="http://discovery.ariba.com/profile/AN01390158050">
+          <img alt="Ver el perfil de Bell City Grup Arquitectura Interiorismo Rehabilitacion S.L. en Ariba Discovery" border=0 src="/img/ico/badge_178x102.jpg">
+        </a>
     </div>
+    
 
     {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} {{ end }}
 
@@ -53,5 +58,4 @@
       </a>
     </span>
     {{ end }}
-  </p>
 </footer>
