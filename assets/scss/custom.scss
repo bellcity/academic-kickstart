@@ -190,47 +190,41 @@ footer{
 	background-color: black;
 }
 
-//// Infinite Slider Carousel ////
-#slider {
-	align-items: center;
-	//background: #E3E3E3;
-	//display: flex;
-	//height: 100vh;
-	justify-content: center;
+
+#infinite_slider {
+	padding-top: 32px;
+	padding-bottom: 32px;
+	background-color: white;
 }
 
 @mixin white-gradient {
 	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 }
 
-$animationSpeed: 60s;
+$animationSpeed: 40s;
 
 // Animation
 @keyframes scroll {
 	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
+	100% { transform: translateX(calc(-250px * 5))}
 }
 
-.empty {
-	padding: 0px;	
-}
 
 // Styling
 .slider {
 	background: white;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	//box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
 	height: 100px;
-	//margin: auto;
+	margin: auto;
 	overflow:hidden;
-	//position: relative;
-    //width: 960px;
-    //width: 100%;
+	position: relative;
+	width: 960px;
 	
 	&::before,
 	&::after {
-		//@include white-gradient;
+		@include white-gradient;
 		content: "";
-		height: 120px;
+		height: 100px;
 		position: absolute;
 		width: 200px;
 		z-index: 2;
@@ -250,14 +244,79 @@ $animationSpeed: 60s;
 	.slide-track {
 		animation: scroll $animationSpeed linear infinite;
 		display: flex;
-		width: calc(250px * 5);
+		width: calc(250px * 10);
 	}
 	
 	.slide {
-		margin: 0 20px 0 20px;
+		height: 100px;
+		width: 250px;
+	}
+}
+
+
+/*
+//// Infinite Slider Carousel ////
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+$animationSpeed: 40s;
+
+// Animation
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+.empty {
+	padding: 0px;	
+}
+
+// Styling
+.slider {
+	background: white;
+	//box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 120px;
+	//margin: auto;
+	//overflow:hidden;
+	//position: relative;
+    //width: 960px;
+    max-width: 100%;
+	
+	&::before,
+	&::after {
+		//@include white-gradient;
+		content: "";
+		height: 100px;
+		position: absolute;
+		width: 200px;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scroll $animationSpeed linear infinite;
+		display: flex;
+		width: calc(550px * 5);
+	}
+	
+	.slide {
+		margin: 0 40px 0 40px;
 		height: 100px;
 		width: 100px;
 		justify-content: center;
 
 	}
 }
+*/

@@ -1,0 +1,60 @@
+{{ $st := .page }}
+{{ $columns := $st.Params.design.columns | default "2" }}
+<!--
+<div class="row">
+  {{ if ne $columns "1" }}
+    <div class="col-12 col-lg-12 section-heading">
+      {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+      {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+    </div>
+</div>
+<div class="row">
+    {{ $st.Content }}
+  {{ end }}
+</div>
+-->
+<div class="row">
+    {{ if ne $columns "1" }}
+      <div class="col-12 col-lg-12 section-heading">
+        {{ with $st.Title }}<h1>{{ . | markdownify | emojify }}</h1>{{ end }}
+        {{ with $st.Params.subtitle }}<p>{{ . | markdownify | emojify }}</p>{{ end }}
+      </div>
+  </div>
+  <div class="row">
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="/img/logos/almar_consulting_.jpg" height="100" width="250" alt="Almar Consulting logo" />
+            </div>
+            <div class="slide">
+                <img src="/img/logos/caser-seguros.jpg" height="100" width="250" alt="Caser seguros logo" />
+            </div>
+            <div class="slide">
+                <img src="/img/logos/policlinica_barcelona.jpg" height="100" width="250" alt="policlinica barcelona logo" />
+            </div>
+            <div class="slide">
+                <img src="/img/logos/edelweiss_.jpg" height="100" width="250" alt="edelweiss logo" />
+            </div>
+            <div class="slide">
+                <img src="/img/logos/multimap.jpg" height="100" width="250" alt="Multimap Mapfre logo" />
+            </div>
+            <div class="slide">
+                <img src="/img/logos/almar_consulting_.jpg" height="100" width="250" alt="Almar Consulting logo" />
+            </div>
+            <div class="slide">
+                <img src="/img/logos/caser-seguros.jpg" height="100" width="250" alt="Caser seguros logo" />
+            </div>
+            <div class="slide">
+                <img src="/img/logos/policlinica_barcelona.jpg" height="100" width="250" alt="policlinica barcelona logo" />
+            </div>
+            <div class="slide">
+                <img src="/img/logos/edelweiss_.jpg" height="100" width="250" alt="edelweiss logo" />
+            </div>
+            <div class="slide">
+                <img src="/img/logos/multimap.jpg" height="100" width="250" alt="Multimap Mapfre logo" />
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+  
