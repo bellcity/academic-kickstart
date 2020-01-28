@@ -9,6 +9,12 @@
   weight = 10
 
 [[main]]
+  name = "Serveis"
+  url = "#description"
+  weight = 11
+  identifier = "sev"
+
+[[main]]
   name = "Blog"
   url = "#posts"
   weight = 20

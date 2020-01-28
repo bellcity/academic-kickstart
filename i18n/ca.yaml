@@ -1,0 +1,146 @@
+- id: toggle_navigation
+  translation: Barra de navegació
+- id: table_of_contents
+  translation: Index
+- id: on_this_page
+  translation: En aquesta pagina
+- id: back_to_top
+  translation: Tornar al principi
+- id: related
+  translation: Relacionat
+- id: minute_read
+  translation: min de lectura
+- id: previous
+  translation: Anterior
+- id: next
+  translation: Següent
+- id: figure
+  translation: 'Figura %d:'
+- id: btn_preprint
+  translation: Preimpresió
+- id: btn_pdf
+  translation: PDF
+- id: btn_cite
+  translation: Cita
+- id: btn_slides
+  translation: Diapositives
+- id: btn_video
+  translation: Vídeo
+- id: btn_code
+  translation: Códi
+- id: btn_dataset
+  translation: Dades
+- id: btn_project
+  translation: Projecte
+- id: btn_poster
+  translation: Poster
+- id: btn_source
+  translation: Font
+- id: btn_copy
+  translation: Copia
+- id: btn_download
+  translation: Baixa
+- id: interests
+  translation: Interessos
+- id: education
+  translation: Educació
+- id: user_profile_latest
+  translation: Ultims
+- id: see_certificate
+  translation: Veure certificat
+- id: present
+  translation: Present
+- id: more_pages
+  translation: Veure tot
+- id: more_posts
+  translation: Més entrades
+- id: more_talks
+  translation: Més xerrades
+- id: more_publications
+  translation: Més publicacions
+- id: contact_name
+  translation: Nom
+- id: contact_email
+  translation: Email
+- id: contact_message
+  translation: Missatge
+- id: contact_send
+  translation: Enviar
+- id: book_appointment
+  translation: Demanar cita
+- id: abstract
+  translation: Resum
+- id: publication
+  translation: Publicació
+- id: publication_type
+  translation: Tipus
+- id: date
+  translation: Data
+- id: last_updated
+  translation: Última actualizació el
+- id: event
+  translation: Event
+- id: location
+  translation: Ubicació
+- id: pub_uncat
+  translation: Uncategorized
+- id: pub_conf
+  translation: Conference paper
+- id: pub_journal
+  translation: Journal article
+- id: pub_preprint
+  translation: Preprint
+- id: pub_report
+  translation: Report
+- id: pub_book
+  translation: Llibres
+- id: pub_book_section
+  translation: Seccio de llibres
+- id: pub_thesis
+  translation: Thesis
+- id: pub_patent
+  translation: Patent
+- id: open_project_site
+  translation: Obre el lloc del web del projecte
+- id: posts
+  translation: Entrada
+- id: publications
+  translation: Publicació
+- id: talks
+  translation: Conferència
+- id: projects
+  translation: Projectes
+- id: search
+  translation: Buscar
+- id: search_placeholder
+  translation: Buscar...
+- id: search_results
+  translation: S'han encontrat resultats
+- id: search_no_results
+  translation: No s'han encontrat resultats
+- id: page_not_found
+  translation: No s'ha trobat la pàgina
+- id: 404_recommendations
+  translation: Buscaves alguna d'aquestes?
+- id: cookie_message
+  translation: Aquet lloc web fa servir cookies per garantitzar una millor experiència.
+- id: cookie_dismiss
+  translation: D'acord
+- id: cookie_learn
+  translation: Més informació
+
+# Description headers
+- id: arquitectura
+  translation: Arquitectura
+- id: arquitectura_sub1
+  translation: Projecte i direcció
+- id: arquitectura_sub2
+  translation: Estudi sobre dret a vol
+- id: arquitectura_sub3
+  translation: Inspecció d'obres
+- id: arquitectura_sub4
+  translation: Gestio cedulles d'habitabilitat
+- id: arquitectura_sub5
+  translation: Certificats d'eficiencia energetica
+- id: arquitectura_sub6
+  translation: Inspecció tecnica d'edificis

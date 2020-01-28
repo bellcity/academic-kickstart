@@ -8,11 +8,11 @@
   url = "#"
   weight = 10
 
-#[[main]]
-#  name = "Servicios"
-#  url = "#gallery"
-#  weight = 11
-#  identifier = "sev"
+[[main]]
+  name = "Servicios"
+  url = "#description"
+  weight = 11
+  identifier = "sev"
 
 #[[main]]
 #  name = "Test1"
