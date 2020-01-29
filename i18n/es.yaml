@@ -168,19 +168,18 @@
 - id: construccion_sub1
   translation: Obra nueva
 - id: construccion_sub2
-  translation: Construcción de edificios residenciales
+  translation: Comercial y residencial
 - id: construccion_sub3
   translation: Construcción y reformas de obras comerciales y residenciales
 - id: construccion_sub4
   translation: Rehabilitación de edificios
 - id: construccion_sub5
-  translation: Restauración y mantenimiento de Fachadas
+  translation: Impermeabilización de cubiertas
 - id: construccion_sub6
   translation: Mantenimiento de comunidades
 - id: construccion_sub7
-  translation: Albañilería, Fontanería, Electricidad en general, Carpintería interior y exterior
-- id: construccion_sub8
-  translation: Servicios de Pintura e Impermeabilización
+  translation: Albañilería, Fontanería, Pintura, Electricidad en general, Carpintería interior y exterior
+
 
 - id: otros_servicios
   translation: Otros Servicios
