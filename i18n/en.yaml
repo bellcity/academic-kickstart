@@ -228,14 +228,61 @@
 - id: arquitectura
   translation: Arquitectura
 - id: arquitectura_sub1
-  translation: Projecte i direcció
+  translation: Proyecto y dirección
 - id: arquitectura_sub2
-  translation: Estudi sobre dret a vol
+  translation: Estudios sobre derecho a vuelo en edificios
 - id: arquitectura_sub3
-  translation: Inspecció d'obres
+  translation: Inspecciones de obras
 - id: arquitectura_sub4
-  translation: Gestio cedulles d'habitabilitat
+  translation: Gestión de Cédulas de habitabilidad
 - id: arquitectura_sub5
-  translation: Certificats d'eficiencia energetica
+  translation: Certificados de eficiencia energética
 - id: arquitectura_sub6
-  translation: Inspecció tecnica d'edificis
+  translation: Inspección técnica de edificios (ITE) Peritajes
+
+- id: interiorismo
+  translation: Interiorismo
+- id: interiorismo_sub1
+  translation: Proyectos de interiorismo residencial y comercial
+- id: interiorismo_sub2
+  translation: Reformas integrales
+- id: interiorismo_sub3
+  translation: Cocinas y Baños
+
+- id: asesoria
+  translation: Asesoria Inmobiliaria
+- id: asesoria_sub1
+  translation: Marketing inmobiliario / Home staging
+- id: asesoria_sub2
+  translation: Búsqueda de solares, fincas e inmuebles
+- id: asesoria_sub3
+  translation: Estudios de viabilidad económica
+
+- id: construccion
+  translation: Construcción y Rehabilitación
+- id: construccion_sub1
+  translation: Obra nueva
+- id: construccion_sub2
+  translation: Comercial y residencial
+- id: construccion_sub3
+  translation: Construcción y reformas de obras comerciales y residenciales
+- id: construccion_sub4
+  translation: Rehabilitación de edificios
+- id: construccion_sub5
+  translation: Impermeabilización de cubiertas
+- id: construccion_sub6
+  translation: Mantenimiento de comunidades
+- id: construccion_sub7
+  translation: Albañilería, Fontanería, Pintura, Electricidad en general, Carpintería interior y exterior
+
+
+- id: otros_servicios
+  translation: Otros Servicios
+- id: otros_servicios_sub1
+  translation: Herrería y soldaduras en general
+- id: otros_servicios_sub2
+  translation: Estructuras metálicas para viviendas
+- id: otros_servicios_sub3
+  translation: Instalación de vallados perimetrales de parcelas y solares
+- id: otros_servicios_sub4
+  translation: Proyecto y mantenimiento de jardinería y solares, desbroces, poda y tala controlada

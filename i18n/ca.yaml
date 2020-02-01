@@ -133,14 +133,61 @@
 - id: arquitectura
   translation: Arquitectura
 - id: arquitectura_sub1
-  translation: Projecte i direcció
+  translation: Projecte y direcció
 - id: arquitectura_sub2
-  translation: Estudi sobre dret a vol
+  translation: Estudis sobre dret a vol en edificis
 - id: arquitectura_sub3
-  translation: Inspecció d'obres
+  translation: Inspecciones de obras
 - id: arquitectura_sub4
-  translation: Gestio cedulles d'habitabilitat
+  translation: Gestió de cèdules d’habilitabitat
 - id: arquitectura_sub5
-  translation: Certificats d'eficiencia energetica
+  translation: Certificats d’eficiència energética
 - id: arquitectura_sub6
-  translation: Inspecció tecnica d'edificis
+  translation: Inspecció técnica d’edificis (ITE)
+
+- id: interiorismo
+  translation: Interiorisme
+- id: interiorismo_sub1
+  translation: Projectes d’interiorisme residencial i comercial
+- id: interiorismo_sub2
+  translation: Reformes integrals
+- id: interiorismo_sub3
+  translation: Cuines i banys
+
+- id: asesoria
+  translation: Assessoria inmobiliària
+- id: asesoria_sub1
+  translation: Màrqueting inmobiliari / Home staging
+- id: asesoria_sub2
+  translation: Cerca de solars, finques e immobles
+- id: asesoria_sub3
+  translation: Estudis de viabilitat econòmica
+
+- id: construccion
+  translation: Construcció y Rehabilitació
+- id: construccion_sub1
+  translation: Obra nova
+- id: construccion_sub2
+  translation: Comercial y residencial
+- id: construccion_sub3
+  translation: Construcción y reformas de obras comerciales y residenciales
+- id: construccion_sub4
+  translation: Rehabilitació d’edificis
+- id: construccion_sub5
+  translation: Impermeabilització de cobertes
+- id: construccion_sub6
+  translation: Manteniment de comunitats
+- id: construccion_sub7
+  translation: Albañilería, fontanería, pintura, electricitat en general, carpintería interior i exterior
+
+
+- id: otros_servicios
+  translation: Altres serveis
+- id: otros_servicios_sub1
+  translation: Ferrería i soldadures en general
+- id: otros_servicios_sub2
+  translation: Estructures metàl·liques per vivendes
+- id: otros_servicios_sub3
+  translation: Instalació de tanques perimetrals de parcel·les i solars
+- id: otros_servicios_sub4
+  translation: Projecte i manteniment de jardineria i solars, desbrossaments, poda i tala controlada.
