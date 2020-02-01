@@ -50,7 +50,7 @@ subtitle = ""
  css_class = ""
 +++
 
-<div class="container" style="display: flex; justify-content: center">
+<div class="container hero" style="display: flex; justify-content: center">
 
   <div class="row" style="flex-direction: column; text-align: center">
     <p>We listen your ideas... We value your options... </p>
