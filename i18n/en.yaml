@@ -226,19 +226,19 @@
 
 # Description headers
 - id: arquitectura
-  translation: Arquitectura
+  translation: Architecture
 - id: arquitectura_sub1
-  translation: Proyecto y dirección
+  translation: Project and management
 - id: arquitectura_sub2
-  translation: Estudios sobre derecho a vuelo en edificios
+  translation: Study of overbuilding rights
 - id: arquitectura_sub3
   translation: Inspecciones de obras
 - id: arquitectura_sub4
   translation: Gestión de Cédulas de habitabilidad
 - id: arquitectura_sub5
-  translation: Certificados de eficiencia energética
+  translation: Energy efficiency certificates
 - id: arquitectura_sub6
-  translation: Inspección técnica de edificios (ITE) Peritajes
+  translation: Technical inspection of buildings
 
 - id: interiorismo
   translation: Interiorismo
@@ -247,7 +247,7 @@
 - id: interiorismo_sub2
   translation: Reformas integrales
 - id: interiorismo_sub3
-  translation: Cocinas y Baños
+  translation: Kitchens and bathrooms
 
 - id: asesoria
   translation: Asesoria Inmobiliaria
@@ -277,7 +277,7 @@
 
 
 - id: otros_servicios
-  translation: Otros Servicios
+  translation: Other Services
 - id: otros_servicios_sub1
   translation: Herrería y soldaduras en general
 - id: otros_servicios_sub2
@@ -285,4 +285,4 @@
 - id: otros_servicios_sub3
   translation: Instalación de vallados perimetrales de parcelas y solares
 - id: otros_servicios_sub4
-  translation: Proyecto y mantenimiento de jardinería y solares, desbroces, poda y tala controlada
+  translation: Project and maintenance of jardinería y solares, desbroces, poda y tala controlada
